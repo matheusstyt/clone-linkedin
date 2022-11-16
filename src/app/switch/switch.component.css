@@ -1,0 +1,187 @@
+.switch{
+    margin: 0 auto;
+    width: 90%;
+    height: 550px;
+  
+    display: flex;
+}
+.esquerdo, .direito, .main{
+    height: 100%;
+    border: 10px solid rgb(78, 78, 78);
+}
+.esquerdo, .direito{
+    width:10%;
+}
+.esquerdo{
+    background-color: rgb(131, 213, 213);
+    border-radius: 120px 0 0 120px;
+    padding-right: 8px;
+    border-right: none;
+}
+.esquerdo .retangunlo{
+    background-color: rgb(34, 34, 34);
+    height: 5px;
+    width: 15px;
+    margin-top: 20%;
+    float: right;
+    right: 10px;
+    border: 10px solid rgb(78, 78, 78); 
+}
+.direito{
+    background-color: rgb(240, 111, 111);
+    border-radius:0 120px 120px 0;
+    border-left: none;
+}
+.main{
+    width:70%;
+    background-color: rgb(48, 48, 48);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main .tela{
+    width: 96%;
+    height: 93%;
+    background-image: linear-gradient(to right, rgb(80, 80, 80) 0, rgb(79, 79, 79) 50%, rgb(72, 72, 72) 30%);
+    
+}
+/* ESQUERDO */
+.btn-circulo{
+    margin: 70px  auto auto;
+    border-radius: 50%;
+    height: 70px;
+    width: 70px;
+    background-color: rgb(34, 34, 34);
+    border: 10px solid rgb(78, 78, 78);
+}
+.caixa-d-pad{
+    display: flex;
+    gap: 10px;
+    flex-flow: wrap row ;
+    height: 110px;
+    width: 110px;
+    margin: 70px  auto auto;
+    transform: rotate(45deg);
+}
+.btn-d-pad-up{
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    background-color: rgb(34, 34, 34);
+    border: 10px solid rgb(78, 78, 78); 
+
+}
+.btn-d-pad-down{
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    background-color: rgb(34, 34, 34);
+    border: 10px solid rgb(78, 78, 78); 
+}
+
+.btn-d-pad-left{
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    background-color: rgb(34, 34, 34);
+    border: 10px solid rgb(78, 78, 78); 
+}
+
+.btn-d-pad-right{
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    background-color: rgb(34, 34, 34);
+    border: 10px solid rgb(78, 78, 78); 
+
+}
+.btn-quadrado{
+    height: 28px;
+    width: 28px;
+    background-color: rgb(34, 34, 34);
+    margin-top: 27%;
+    float: right;
+    margin-right: 26px;
+    border: 10px solid rgb(78, 78, 78); 
+}
+
+/* DIREITO */
+.cruz{
+    position:relative;
+    border: 1px dotted rgb(240, 111, 111);
+    width: 3px;
+    height: 3px;
+    background-color: rgb(34, 34, 34);
+    box-sizing: border-box;
+    transform: scale(16);
+    margin-top: 50px;
+    margin-left: 40px;
+  }
+  .caixa-d-pad-d{
+    display: flex;
+    gap: 10px;
+    flex-flow: wrap row ;
+    height: 110px;
+    width: 110px;
+    margin: 35px  auto auto;
+    transform: rotate(45deg);
+}
+.btn-d-pad-up-d{
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    background-color: rgb(34, 34, 34);
+    border: 10px solid rgb(78, 78, 78); 
+
+}
+.btn-d-pad-down-d{
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    background-color: rgb(34, 34, 34);
+    border: 10px solid rgb(78, 78, 78); 
+}
+
+.btn-d-pad-left-d{
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    background-color: rgb(34, 34, 34);
+    border: 10px solid rgb(78, 78, 78); 
+}
+
+.btn-d-pad-right-d{
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    background-color: rgb(34, 34, 34);
+    border: 10px solid rgb(78, 78, 78); 
+
+}
+.btn-quadrado-d{
+    height: 45px;
+    width: 45px;
+    background-color: rgb(34, 34, 34);
+    margin-top: 27%;
+    float: right;
+    margin-right: 26px;
+}
+.botao-direito-a, .botao-direito-b{
+    border-radius: 50%;
+}
+.botao-direito-a{
+    margin: 0 auto;
+    margin-top: 47px;
+    width: 70px;
+    height: 70px;
+    background-color: rgb(34, 34, 34);
+    border: 10px solid rgb(78, 78, 78); 
+}
+.botao-direito-b{
+    margin-top: 30px;
+    margin-left: 25px;
+    width: 43px;
+    height: 43px;
+    background-color: rgb(34, 34, 34);
+    border: 10px solid rgb(78, 78, 78); 
+}
