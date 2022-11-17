@@ -1,35 +1,34 @@
 .switch{
     margin: 0 auto;
     width: 90%;
-    height: 550px;
-  
+    aspect-ratio: 27.4/11.7;
     display: flex;
 }
 .esquerdo, .direito, .main{
     height: 100%;
-    border: 10px solid rgb(78, 78, 78);
+    border: 0.7vmax solid rgb(78, 78, 78);
 }
 .esquerdo, .direito{
-    width:10%;
+    width:15%;
 }
 .esquerdo{
     background-color: rgb(131, 213, 213);
-    border-radius: 120px 0 0 120px;
+    border-radius: 8vmax 0 0 8vmax;
     padding-right: 8px;
     border-right: none;
 }
 .esquerdo .retangunlo{
     background-color: rgb(34, 34, 34);
-    height: 5px;
-    width: 15px;
+    height: 0.3vmax;
+    aspect-ratio: 20/10;
     margin-top: 20%;
     float: right;
     right: 10px;
-    border: 10px solid rgb(78, 78, 78); 
+    border: 0.7vmax solid rgb(78, 78, 78); 
 }
 .direito{
     background-color: rgb(240, 111, 111);
-    border-radius:0 120px 120px 0;
+    border-radius:0 8vmax 8vmax 0;
     border-left: none;
 }
 .main{
@@ -47,116 +46,92 @@
 }
 /* ESQUERDO */
 .btn-circulo{
-    margin: 70px  auto auto;
+    margin: 7vmax  auto auto;
     border-radius: 50%;
-    height: 70px;
-    width: 70px;
+    aspect-ratio: 1/1;
+    width: 40%;
     background-color: rgb(34, 34, 34);
-    border: 10px solid rgb(78, 78, 78);
+    border: 0.7vmax solid rgb(78, 78, 78);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sub-circulo{
+    background-color: rgba(95, 95, 95, 0.3);
+    width: 70%;
+    height: 70%;
+    border-radius: 50%;
 }
 .caixa-d-pad{
     display: flex;
-    gap: 10px;
+    gap: 0.1vmax;
     flex-flow: wrap row ;
-    height: 110px;
-    width: 110px;
-    margin: 70px  auto auto;
+    justify-content: space-around;
+    width: 70%;
+    aspect-ratio: 1/1;
+    margin: 6vmax  auto auto;
     transform: rotate(45deg);
 }
-.btn-d-pad-up{
+.btn-dp{
     border-radius: 50%;
-    height: 30px;
-    width: 30px;
+    height: 30%;
+    aspect-ratio: 1/1;
     background-color: rgb(34, 34, 34);
-    border: 10px solid rgb(78, 78, 78); 
-
+    border: 0.7vmax solid rgb(78, 78, 78);
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+.btn-d-pad-up{
 }
 .btn-d-pad-down{
-    border-radius: 50%;
-    height: 30px;
-    width: 30px;
-    background-color: rgb(34, 34, 34);
-    border: 10px solid rgb(78, 78, 78); 
 }
 
 .btn-d-pad-left{
-    border-radius: 50%;
-    height: 30px;
-    width: 30px;
-    background-color: rgb(34, 34, 34);
-    border: 10px solid rgb(78, 78, 78); 
 }
 
 .btn-d-pad-right{
-    border-radius: 50%;
-    height: 30px;
-    width: 30px;
-    background-color: rgb(34, 34, 34);
-    border: 10px solid rgb(78, 78, 78); 
 
 }
 .btn-quadrado{
-    height: 28px;
-    width: 28px;
+    width: 1vmax;
+    aspect-ratio: 1/1;
     background-color: rgb(34, 34, 34);
     margin-top: 27%;
     float: right;
     margin-right: 26px;
-    border: 10px solid rgb(78, 78, 78); 
+    border: 0.8vmax solid rgb(78, 78, 78); 
 }
 
 /* DIREITO */
 .cruz{
-    position:relative;
-    border: 1px dotted rgb(240, 111, 111);
-    width: 3px;
-    height: 3px;
-    background-color: rgb(34, 34, 34);
-    box-sizing: border-box;
-    transform: scale(16);
-    margin-top: 50px;
-    margin-left: 40px;
+    font-size: 4vmax;
+    margin: 0;
+    padding: 0;
+    font-family: 'Verdana';
+    color: rgb(34, 34, 34);
+
   }
   .caixa-d-pad-d{
     display: flex;
-    gap: 10px;
+    gap: 0.1vmax;
     flex-flow: wrap row ;
-    height: 110px;
-    width: 110px;
-    margin: 35px  auto auto;
+    justify-content: space-around;
+    width: 70%;
+    aspect-ratio: 1/1;
+    margin: 0vmax  auto auto;
     transform: rotate(45deg);
 }
 .btn-d-pad-up-d{
-    border-radius: 50%;
-    height: 30px;
-    width: 30px;
-    background-color: rgb(34, 34, 34);
-    border: 10px solid rgb(78, 78, 78); 
 
 }
 .btn-d-pad-down-d{
-    border-radius: 50%;
-    height: 30px;
-    width: 30px;
-    background-color: rgb(34, 34, 34);
-    border: 10px solid rgb(78, 78, 78); 
 }
 
 .btn-d-pad-left-d{
-    border-radius: 50%;
-    height: 30px;
-    width: 30px;
-    background-color: rgb(34, 34, 34);
-    border: 10px solid rgb(78, 78, 78); 
 }
 
 .btn-d-pad-right-d{
-    border-radius: 50%;
-    height: 30px;
-    width: 30px;
-    background-color: rgb(34, 34, 34);
-    border: 10px solid rgb(78, 78, 78); 
-
 }
 .btn-quadrado-d{
     height: 45px;
@@ -171,17 +146,26 @@
 }
 .botao-direito-a{
     margin: 0 auto;
-    margin-top: 47px;
-    width: 70px;
-    height: 70px;
+    margin-top: 3vmax;
+    aspect-ratio: 1/1;
+    width: 40%;
     background-color: rgb(34, 34, 34);
-    border: 10px solid rgb(78, 78, 78); 
+    border: 0.7vmax solid rgb(78, 78, 78); 
+    display: flex;
+    align-items: center;
+    justify-content: center; 
 }
 .botao-direito-b{
-    margin-top: 30px;
-    margin-left: 25px;
-    width: 43px;
-    height: 43px;
+    margin-top: 1.4vmax;
+    margin-left: 1.4vmax;
+    aspect-ratio: 1/1;
+    width: 20%;
     background-color: rgb(34, 34, 34);
-    border: 10px solid rgb(78, 78, 78); 
+    border: 0.7vmax solid rgb(78, 78, 78);
+    
+}
+.rotate{color: rgb(64, 64, 64);
+    transform: rotate(-45deg); 
+    font-size: 1.2vmax;
+    font-family: 'arial';
 }
