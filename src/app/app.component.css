@@ -1,22 +1,22 @@
 
-main{
+.main-section{
     margin: 1.7vmax auto;
     display: flex;
     align-items: center;
     justify-content: center;
     height: 100%;
-    width: 75%;
+    width: 77%;
     display: flex;
 }
-.menu-principal{
+.main-content{
     height: 100%;
     width: 65%;
     display: inline-block;
     margin: 0 auto;
-    border-radius: 1vmax;
+    border-radius: 0.7vmax;
     overflow: hidden;
 }
-.menu-lateral{
+aside{
     height: 100%;
     width: 30%;
     margin: 0 auto;
@@ -43,7 +43,6 @@ main{
 }
 .caixa-perfil{
     width: 100%;
-    height: 575px;
     position: relative;
 }
 .analise{
@@ -61,7 +60,7 @@ header{
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-left: 2.3vmax;
+    padding-left: 1vmax;
 }
 header img{
     height: 75%;

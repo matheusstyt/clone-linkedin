@@ -18,18 +18,86 @@
     background-size: contain;
     overflow: hidden;
     position: absolute;
-    top: 14%;
+    top: 17%;
     left: 3%;
 }
-.metade{
-    background-color: antiquewhite;
+.corpo{
     height: 43%;
     display: flex;
 }
-.metade .lado-a, .metade .lado-b{
-    width: 50%;
+.corpo .lado-a, .corpo .lado-b{
     height: 100%;
 }
-.metade .lado-a{
-    background-color: aquamarine;
+.corpo .lado-b{
+    width: 33%;
+}
+.corpo .lado-a{
+    width: 67%;
+
+    padding: 3.3em 0em 0.5em 1.5em;
+}
+.corpo .lado-a p, .corpo .lado-a  span{
+    font-family: 'Arial';
+    margin: 0.1em;
+    color: rgb(78, 78, 78);
+}
+#text-nome{
+    font-size: 1.6vmax;
+    color: rgb(43, 43, 43);
+}
+#text-bio{
+
+}
+#text-local{
+    color: rgb(132, 132, 132);
+    font-size: 0.9vmax;
+    margin-top: 0.5vmax;
+    display: inline-block;
+}
+#text-info{
+    font-size: 0.9vmax;
+    color: #0A66C2;
+    display: inline-block;
+}
+#text-point{
+    display: inline-block;
+}
+.box-button{
+    width: 100%;
+}
+.btn-p{
+    border-radius: 1.6em;
+    border: 0.13em solid #0A66C2;
+    background-color: #0A66C2;
+    color: #ffff;
+    font-weight:bold;
+    font-size: 0.9em;
+    padding: 0.5em 1em;
+    margin: 1.7em 0.3em;
+}
+.btn-add{
+    background-color: #fff;
+    color: #0A66C2;  
+}
+.btn-plus{
+    background-color: #fff;
+    color: #656565;  
+    border: 0.13em solid #656565; 
+}
+.btn-be:hover{
+    background-color: #094683;
+    border: 0.13em solid #094683;
+    transition: 0.3s ease;
+}
+.btn-add:hover{
+    background-color: #dff0f7;
+    border: 0.13em solid #094683;
+    transition: 0.5s ease;
+    box-shadow: inset -0.03em -0.03em 0.01em 0.01em  #2267ac;
+}
+.btn-plus:hover{
+    background-color: #e0e0e0;
+    border: 0.13em solid #656565; 
+    transition: 0.5s ease;
+    box-shadow: inset -0.03em -0.03em 0.01em 0.01em  #656565; 
 }
