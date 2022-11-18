@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
+// import { DragDropModule } from '@angular/cdk/drag-drop';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { SwitchComponent } from './switch/switch.component';
@@ -12,12 +12,13 @@ import { PrincipalComponent } from './principal/principal.component';
     AppComponent,
     SwitchComponent,
     Switch2Component,
-    PrincipalComponent
+    PrincipalComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-
+    // DragDropModule
+  
   ],
   providers: [],
   bootstrap: [AppComponent]

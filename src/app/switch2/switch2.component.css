@@ -1,0 +1,175 @@
+
+.switch{
+    margin: 0 auto;
+    width: 90%;
+    aspect-ratio: 27.4/11.7;
+    display: flex;
+}
+.esquerdo, .direito, .main{
+    height: 100%;
+    border: 0.4vmax solid rgb(78, 78, 78);
+}
+.esquerdo, .direito{
+    width:15%;
+}
+.esquerdo{
+    background-color: rgb(79, 181, 197);
+    border-radius: 8vmax 0 0 8vmax;
+    padding-right: 8px;
+    border-right: none;
+    position: relative;
+}
+.esquerdo .retangunlo{
+    background-color: rgb(34, 34, 34);
+    height: 2%;
+    aspect-ratio: 30/10;
+    margin-top: 20%;
+    float: right;
+    right: 4%;
+    border: 0.4vmax solid rgb(78, 78, 78); 
+    position: absolute;
+}
+.direito{
+    background-color: rgba(244, 56, 56, 0.933);
+    border-radius:0 8vmax 8vmax 0;
+    border-left: none;
+}
+.main{
+    width:70%;
+    background-color: rgb(48, 48, 48);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main .tela{
+    width: 96%;
+    height: 93%;
+    background-image: linear-gradient(to right, rgb(80, 80, 80) 0, rgb(79, 79, 79) 50%, rgb(72, 72, 72) 30%);
+    
+}
+/* ESQUERDO */
+.btn-circulo{
+    margin: 0 auto;
+    margin-top: 50%;
+    border-radius: 50%;
+    aspect-ratio: 1/1;
+    width: 45%;
+    background-color: rgb(34, 34, 34);
+    border: 0.4vmax solid rgb(78, 78, 78);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sub-circulo{
+    background-color: rgba(95, 95, 95, 0.3);
+    width: 70%;
+    height: 70%;
+    border-radius: 50%;
+}
+.caixa-d-pad{
+    display: flex;
+    gap: 0.1vmax;
+    flex-flow: wrap row ;
+    justify-content: space-around;
+    width: 70%;
+    aspect-ratio: 1/1;
+    margin: 35%  auto auto;
+    transform: rotate(45deg);
+}
+.btn-dp{
+    border-radius: 50%;
+    height: 29%;
+    aspect-ratio: 1/1;
+    background-color: rgb(34, 34, 34);
+    border: 0.4vmax solid rgb(78, 78, 78);
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+.btn-d-pad-up{
+}
+.btn-d-pad-down{
+}
+
+.btn-d-pad-left{
+}
+
+.btn-d-pad-right{
+
+}
+.btn-quadrado{
+    width: 15%;
+    aspect-ratio: 1/1;
+    background-color: rgb(34, 34, 34);
+    margin-top: 27%;
+    float: right;
+    margin-right: 5%;
+    border: 0.4vmax solid rgb(78, 78, 78); 
+}
+
+/* DIREITO */
+.cruz{
+    font-size: 2vmax;
+    margin: 15% 0;
+    padding: 0;
+    font-family: 'Verdana';
+    color: rgb(34, 34, 34);
+
+  }
+  .caixa-d-pad-d{
+    display: flex;
+    gap: 0.1vmax;
+    flex-flow: wrap row ;
+    justify-content: space-around;
+    width: 70%;
+    aspect-ratio: 1/1;
+    margin: 0vmax  auto auto;
+    transform: rotate(45deg);
+}
+.btn-d-pad-up-d{
+
+}
+.btn-d-pad-down-d{
+}
+
+.btn-d-pad-left-d{
+}
+
+.btn-d-pad-right-d{
+}
+.btn-quadrado-d{
+    height: 45px;
+    width: 45px;
+    background-color: rgb(34, 34, 34);
+    margin-top: 27%;
+    float: right;
+    margin-right: 26px;
+}
+.botao-direito-a, .botao-direito-b{
+    border-radius: 50%;
+}
+.botao-direito-a{
+    margin: 0 auto;
+    margin-top: 20%;
+    aspect-ratio: 1/1;
+    width: 40%;
+    background-color: rgb(34, 34, 34);
+    border: 0.4vmax solid rgb(78, 78, 78); 
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+.botao-direito-b{
+    margin-top: 12%;
+    margin-left: 15%;
+    aspect-ratio: 1/1;
+    width: 25%;
+    background-color: rgb(34, 34, 34);
+    border: 0.4vmax solid rgb(78, 78, 78);
+    
+}
+.rotate{color: rgb(64, 64, 64);
+    transform: rotate(-45deg); 
+    font-size: 1.2vmax;
+    font-family: 'arial';
+}
